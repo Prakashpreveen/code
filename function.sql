@@ -1,4 +1,8 @@
--- Creating Function for AutoEmail Generator:
+-- FUNCTION TO AUTO-GENARATE EMAIL BASED ON first_name AND last_name:		[SESSION TIMEOUT ISSUE]
+
+SET SESSION wait_timeout = 600;
+SET SESSION interactive_timeout = 600;
+		
 delimiter $$
 
 create function generate_email(first_name varchar(50),last_name varchar(50))
@@ -18,3 +22,8 @@ begin
 end $$
 
 delimiter ;
+
+
+
+
+

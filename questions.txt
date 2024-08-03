@@ -1,0 +1,16 @@
+1 . Create Function to Retrieve Employee Details Based on Ratings:
+	
+	- In MySQL there is no option called 'RETURNS TABLE', So Store Procedure has been created to do this process. [store_procedure.sql]
+
+2 . Create Function to Autogenerate Email Id Based on first_name and last_name given in the table:
+	
+	- Function has been created but while executing the INSERT INTO process timeout issue happened even though TIMEOUT SESSION has been applied. [function.sql]
+	- As of now email id has been inserted manually need to rectify the problem.
+
+3 . Create Function based on Blood Group to Retrieve Employee Details:
+
+	- Created Store Procedure based on blood group and successfully retrieved data. [store_procedure.sql] 
+
+4 . Create Store Procedure to Update Date-Time in updated_at Column in all tables:
+
+	- Created Store Procedure and successfully updated on all tables whichever had updated_at column. [store_procedure.sql]

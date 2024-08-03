@@ -1,7 +1,10 @@
+-- CREATING DATABASE:
+
 create database employees;
 use employees;
 
--- Creating Tables:
+-- CREATING TABLES:
+
 create table employee (
 id integer primary key auto_increment,
 first_name varchar(50) not null,
